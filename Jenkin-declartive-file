@@ -7,11 +7,6 @@ pipeline{
             }
             
         }
-        stage("git checkout"){
-            steps{
-                git credentialsId: '6ed76521-30dd-447e-8005-0314fcaa0d6c', url: 'https://github.com/subbareddyreddam/pipeline'
-            }
-            
-        }
+        
     }
 }
